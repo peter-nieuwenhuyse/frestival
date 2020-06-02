@@ -1,0 +1,28 @@
+{
+  "npmScope": "frestival",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "frestival": {
+      "tags": []
+    },
+    "frestival-e2e": {
+      "tags": [],
+      "implicitDependencies": ["frestival"]
+    },
+    "api": {
+      "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    }
+  }
+}
